@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* style.css */
+
+/* Center align the content */
+body {
+    text-align: center;
+}
+
+/* Style the h1 heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the "ADD" button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Style table header */
+th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    font-weight: bold;
+}
+
+/* Style table rows */
+td {
+    padding: 8px;
+}
+
+/* Style table row hover */
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Style links within the table */
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #004080;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+

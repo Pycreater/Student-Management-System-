@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+/* add-student.css */
+
+/* Style the form container */
+.myFonts {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the form */
+form {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style form labels */
+form label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+/* Style form inputs */
+form input[type="text"] {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Style submit button */
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Change submit button color on hover */
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Align submit button */
+form input[type="submit"] {
+    margin-left: 100px;
+}
+
+
